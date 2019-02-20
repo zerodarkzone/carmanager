@@ -3,4 +3,4 @@ djangorestframework
 gunicorn
 django-heroku
 django-filter
-requests
+python-dotenv
