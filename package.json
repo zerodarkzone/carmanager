@@ -1,0 +1,31 @@
+{
+  "name": "carmanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development ./frontend/src/index.jsx --output ./frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./frontend/src/index.jsx --output ./frontend/static/frontend/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "bootstrap": "^3.4.1",
+    "cypress": "^3.1.5",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.2",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-dom": "^16.8.2",
+    "react-router-dom": "^4.3.1",
+    "weak-key": "^1.0.1",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3"
+  }
+}

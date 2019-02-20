@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Test</h1>
+<ul>
+    {% for key, value in brands.items %}
+        <li>{{ key }}</li>
+        <ul>
+        {% for val in value %}
+            <li>Owner: {{ val.owner }}, Model: {{ val.model }}, Plate: {{ val.plate }}</li>
+        {% endfor %}
+        </ul>
+    {% endfor %}
+</ul>
+</body>
+</html>
